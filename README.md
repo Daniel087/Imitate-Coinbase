@@ -17,7 +17,7 @@
  - 根据邮箱地址收发数字货币
 ## 界面展示
  - 第一次进入应用页面
- ! [加载错误] (https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image1.png)；
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image1.png)；
  http://github.com/Daniel087/Imitate-Coinbase/images/image1.jpg
  - 注册页面
  http://github.com/Daniel087/Imitate-Coinbase/images/image2.jpg
