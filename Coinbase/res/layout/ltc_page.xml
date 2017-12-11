@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#104E8B"
+        android:orientation="horizontal"
+        android:paddingBottom="5sp"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="40sp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="\u039E"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LTC Wallet"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#104E8B" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp"
+            android:background="#104E8B"
+            android:gravity="center"
+            android:text="LTC"
+            android:textColor="#ffffff"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/textView2"
+            android:background="#104E8B"
+            android:gravity="center_vertical"
+            android:text="0.0000"
+            android:textColor="#ffffff"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="40dp"
+            android:background="#104E8B"
+            android:gravity="center"
+            android:text="CN\u00A5"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/textView3"
+            android:layout_toRightOf="@+id/textView4"
+            android:background="#104E8B"
+            android:gravity="center_vertical"
+            android:text="0.00"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="110dp"
+            android:layout_marginRight="35dp"
+            android:background="#1C86EE"
+            android:text="请求"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="52dp"
+            android:background="#1C86EE"
+            android:text="发送"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="#000000"
+                
+                android:text="LTC" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="CN" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/radioGroup1"
+            android:layout_centerHorizontal="true"
+            android:hint="输入邮箱地址"
+            android:ems="10"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp"
+            android:background="#104e8b" >
+
+            
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:background="#104e8b"
+            android:ems="10"
+            android:hint="输入收/发数量"
+            android:inputType="number"
+            android:textColorHint="#ffffff"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
