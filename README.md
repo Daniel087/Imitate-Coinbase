@@ -18,19 +18,18 @@
 ## 界面展示
  - 第一次进入应用页面
  ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image1.png)；
- http://github.com/Daniel087/Imitate-Coinbase/images/image1.jpg
  - 注册页面
- http://github.com/Daniel087/Imitate-Coinbase/images/image2.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image2.png)；
  - 登录页面
- http://github.com/Daniel087/Imitate-Coinbase/images/image3.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image3.png)；
  - 程序主页面
- http://github.com/Daniel087/Imitate-Coinbase/images/image4.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image4.png)；
  - 侧拉列表展示
- http://github.com/Daniel087/Imitate-Coinbase/images/image5.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image5.png)；
  - 充值账户
- http://github.com/Daniel087/Imitate-Coinbase/images/image6.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image6.png)；
  - 兑换数字货币
- http://github.com/Daniel087/Imitate-Coinbase/images/image7.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image7.png)；
  - 收发数字货币
- http://github.com/Daniel087/Imitate-Coinbase/images/image8.jpg
- http://github.com/Daniel087/Imitate-Coinbase/images/image9.jpg
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image8.png)；
+ ![加载错误](https://github.com/Daniel087/Imitate-Coinbase/blob/master/images/image9.png)；
